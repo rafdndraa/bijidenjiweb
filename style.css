@@ -1,5 +1,80 @@
-body 
-{
-background-color: red;
-font-family: Arial;
+body{
+    background:#f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main container */
+.content{
+    width:90%;
+    margin:auto;
+    height:420px;
+    padding:0.1px;
+    background:#fff;
+    color:#333;
+}
+
+/* blog box */
+.border{
+    border:2px solid #4887b9;
+    margin-top:10px;
+    padding:10px 20px;
+}
+
+/* left side */
+.kiri{
+    width:70%;
+    float:left;
+    background:#fff;
+    height:420px;
+}
+
+/* right side */
+.kanan{
+    width:30%;
+    float:left;
+    background:#fff;
+    height:420px;
+}
+
+/* spacing helper */
+.jarak{
+    padding:10px;
+}
+
+/* remove underline */
+.undecor{
+    text-decoration:none;
+    color:#333;
+}
+
+/* button style */
+.btn{
+    background:#4887b9;
+    color:#fff;
+    padding:8px 15px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#3a6d94;
+}
+
+/* clearfix for float */
+.content::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* footer */
+.footer{
+    width:90%;
+    margin:auto;
+    height:40px;
+    line-height:40px;
+    background:#417aa8;
+    color:#fff;
+    margin-bottom:10px;
+    text-align:center;
 }
